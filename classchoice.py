@@ -40,11 +40,14 @@ while True:
         q=circle(radius)
         q.area()
     elif a==2: 
-        name=input("enter the person's name : ")
-        age=int(input("enter person's age : "))
-        address=(input("enter person's address : "))
-        q=person(name,age,address)
-        q.display()
+        # name=input("enter the person's name : ")
+        # age=int(input("enter person's age : "))
+        # address=(input("enter person's address : "))
+        # q=person(name,age,address)
+        # q.display()
+        while True:
+            
+
     elif a==3:
         title=input("Enter the title of the Book: ")
         author=input("Enter the name of author: ")
